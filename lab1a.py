@@ -5,10 +5,16 @@
 from datetime import datetime
 
 def calculate_age():
-    birth_year = int(input("Please enter your Year of Birth: "))
+    try:
+        birth_year = int(input("Please enter your Year of Birth: "))
+    except TypeError:
+        print("Please enter an int.")
+        return
+
     current_year = datetime.now().year
     age = current_year - birth_year
     print(f"You are {age} years old.")
+
 
 # Add NEW function
 def helloWorld():
