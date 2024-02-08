@@ -10,4 +10,12 @@ def calculate_age():
     age = current_year - birth_year
     print(f"You are {age} years old.")
 
+# Add NEW function
+def helloWorld():
+	print(‘Hello World’)
+
+
+# Call the functions
 calculate_age()
+
+helloWorld()
