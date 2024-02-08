@@ -1,2 +1,2 @@
 # Lab1
-Lab 1 repository
+Lab1 Repository
